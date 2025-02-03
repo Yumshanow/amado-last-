@@ -1,0 +1,1 @@
+export const SERVER_APP_URL = 'http://localhost:3030';

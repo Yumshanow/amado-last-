@@ -1,0 +1,11 @@
+.mainpage{
+    display: flex;
+    height: 100vh;
+}
+.products{
+    
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}

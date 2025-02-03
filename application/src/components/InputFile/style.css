@@ -1,0 +1,43 @@
+.file-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #C6BDBD;
+    box-shadow: 2px 4px 4px 0px #C6BDBD40;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.file-input-container.input-ok{
+    border: 1px solid #406FE9;
+    box-shadow: 2px 4px 4px 0px #406FE940;
+}
+
+.custom-file-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.custom-file-input input[type="file"] {
+    display: none; /* Прячем стандартный input */
+}
+
+.file-label {
+    color: #888;
+    font-size: 16px;
+}
+
+.file-icon {
+    font-size: 24px;
+    margin-left: auto;
+    padding-left: 10px;
+}
+
+.custom-file-input:hover .file-label,
+.custom-file-input:hover .file-icon {
+    color: #333;
+}

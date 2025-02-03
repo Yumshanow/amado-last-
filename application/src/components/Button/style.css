@@ -1,0 +1,38 @@
+.button-default{
+    width: 100%;
+    padding: 10px 5px;
+    color: #fff;
+    transition: .2s;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.button-cancel{
+    background-color: #F23C3C;
+    box-shadow: 2px 4px 4px 0 #F23C3C40;
+    border: 1px solid #F23C3C
+}
+
+.button-another{
+    background-color: #406FE9;
+    box-shadow: 2px 4px 4px 0 #406FE940;
+    border: 1px solid #406FE9
+}
+
+.button-another:hover{
+    background-color: rgba(64, 111, 233, 0.85)
+}
+.button-cancel:hover{
+    background-color: rgba(242, 60, 60, 0.85)
+}
+
+.button-disabled{
+    box-shadow: 2px 4px 4px 0px #C6BDBD40;
+    border: 1px solid #C6BDBD;
+    background-color: #C6BDBD;
+}
+.button-disabled:hover{
+    box-shadow: 2px 4px 4px 0px #C6BDBD40;
+    border: 1px solid #C6BDBD;
+    background-color: #C6BDBD;
+}

@@ -1,0 +1,32 @@
+.loader-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff; 
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(from 0deg, #4a90e2, #a167e7, #ff4f70, #ffcc00, #4a90e2);
+    animation: spin 1s linear infinite;
+}
+
+.spinner::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background-color: #ffffff; 
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

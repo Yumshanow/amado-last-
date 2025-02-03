@@ -1,0 +1,21 @@
+.form-wrapper{
+    position: fixed;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    background-color: white;
+    height: 100%;
+}
+
+.form-detail{
+    margin: 25px;
+}
+
+.form-detail_tag{
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.form-detail_obligation{
+    margin-bottom: 20px;
+}

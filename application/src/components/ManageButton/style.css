@@ -1,0 +1,17 @@
+.manage-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px 0px #00000040;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.manage-button:hover{
+    background: #406FE9;
+    box-shadow: 2px 5px 5px 0px #406FE940;
+
+}
